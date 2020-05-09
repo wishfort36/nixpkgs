@@ -2809,6 +2809,8 @@ in {
 
   flit = callPackage ../development/python-modules/flit { };
 
+  flit-core = callPackage ../development/python-modules/flit-core { };
+
   flowlogs_reader = callPackage ../development/python-modules/flowlogs_reader { };
 
   fluent-logger = callPackage ../development/python-modules/fluent-logger {};
